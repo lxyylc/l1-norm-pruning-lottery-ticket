@@ -10,14 +10,17 @@ l1-norm-pruning-lottery-ticket/
     └── vgg.py
 ```
 训练vgg16
-```python train_vgg.py --save_dir logs
+```
+python train_vgg.py --save_dir logs
 ```
 对vgg16进行剪枝
 ```
 python prun_vgg.py --pretrain_path logs --save_dir logs
 ```
 训练resnet56
-``` python train_resnet.py --save_dir logs```
+```
+python train_resnet.py --save_dir logs
+```
 对resnet56进行剪枝
 ```
 python prun_resnet.py --pretrain_path logs --save_dir logs
