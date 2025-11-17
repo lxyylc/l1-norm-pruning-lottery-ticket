@@ -8,9 +8,9 @@ l1-norm-pruning-lottery-ticket/
 └── model/
     ├── resnet.py
     └── vgg.py
-
-运行环境python=3.12, pytorch=2.7.0
 ```
+运行环境python=3.12, pytorch=2.7.0
+
 训练vgg16
 ```
 python train_vgg.py --save_dir logs
