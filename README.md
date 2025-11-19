@@ -1,4 +1,4 @@
-自己实现l1-norm剪枝，网络结构vgg16和resnet56，数据集cifar10，使用原来的初始化权重初始化剪枝后的模型，而非随机初始化剪枝后的模型
+自己实现l1-norm剪枝，网络结构vgg16和resnet56，数据集cifar10，使用原来的初始化权重初始化剪枝后的模型（彩票假说lottery ticket），而非随机初始化剪枝后的模型
 ```
 l1-norm-pruning-lottery-ticket/
 ├── prun_resnet.py
